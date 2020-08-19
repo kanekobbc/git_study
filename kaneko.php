@@ -1,3 +1,6 @@
+<?php
+$text = 'hello';
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -5,6 +8,6 @@
 <title>test</title>
 </head>
 <body>
-<?= 'test'; ?>
+<?= $text; ?>
 </body>
 </html>
